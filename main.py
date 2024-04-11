@@ -9,7 +9,6 @@ app = Flask(__name__)
 def hello_world():
     return "Yepuuuuu!"
 
-
 @app.route("/hello")
 def hello():
     return "hello"
